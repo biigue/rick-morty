@@ -1,0 +1,29 @@
+export default `
+  query ($id: ID!) {
+    character(id: $id) {
+      id
+      name
+      species
+      status
+      type
+      gender
+      image
+      origin {
+        name
+        dimension
+        type
+      }
+      location {
+        name
+        dimension
+        type
+      }
+      episode {
+        name
+        air_date
+        id
+        episode
+      }
+    }
+  }
+`;
