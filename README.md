@@ -24,6 +24,6 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
+### Site
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<a href="https://rickmorty-vue3-graphql-ts.netlify.app/">Site preview</a>
